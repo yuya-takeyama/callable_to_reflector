@@ -1,0 +1,20 @@
+{
+    "name": "yuyat/callable_to_reflector",
+    "description": "Transforms any callable into Reflector",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yuya Takeyama",
+            "email": "sign.of.the.wolf.pentagram@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.2"
+    },
+    "autoload": {
+        "files": ["src/callableToReflector.php"]
+    }
+}
